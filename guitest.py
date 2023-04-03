@@ -2,10 +2,20 @@ import tkinter as tk
 import os
 
 def playSingle():
-    os.system('python snakesingle.py')
+
+    #Windows 11
+    #os.system('python snakesingle.py')
+
+    #MacOS
+    os.system('python3 snakesingle.py')
 
 def playMulti():
-    os.system('python snakemulti.py')
+
+    #Windows 11
+    #os.system('python snakemulti.py')
+    
+    #MacOS
+    os.system('python3 snakemulti.py')
 
 #print(str(globals.SCALE))
 
